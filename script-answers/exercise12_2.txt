@@ -1,0 +1,53 @@
+Script started on Mon Jan 17 10:13:08 2022
+[1m[7m%[27m[1m[0m                                                                                    ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heecho "hello"[?1l>[?2004l
+]2;echo "hello"]1;echohello
+[1m[7m%[27m[1m[0m                                                                                    ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker container run hello-world[?1l>[?2004l
+]2;docker container run hello-world]1;docker
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[1m[7m%[27m[1m[0m                                                                                    ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker run -it ubuntu bash[?1l>[?2004l
+]2;docker run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Kea362f368469: Pulling fs layer [1B[1A[2Kea362f368469: Downloading  294.1kB/28.57MB[1B[1A[2Kea362f368469: Downloading  1.178MB/28.57MB[1B[1A[2Kea362f368469: Downloading  2.059MB/28.57MB[1B[1A[2Kea362f368469: Downloading   2.64MB/28.57MB[1B[1A[2Kea362f368469: Downloading   3.23MB/28.57MB[1B[1A[2Kea362f368469: Downloading  3.812MB/28.57MB[1B[1A[2Kea362f368469: Downloading  4.692MB/28.57MB[1B[1A[2Kea362f368469: Downloading  5.573MB/28.57MB[1B[1A[2Kea362f368469: Downloading  6.167MB/28.57MB[1B[1A[2Kea362f368469: Downloading  7.052MB/28.57MB[1B[1A[2Kea362f368469: Downloading  7.641MB/28.57MB[1B[1A[2Kea362f368469: Downloading  8.223MB/28.57MB[1B[1A[2Kea362f368469: Downloading  9.096MB/28.57MB[1B[1A[2Kea362f368469: Downloading  9.984MB/28.57MB[1B[1A[2Kea362f368469: Downloading  10.87MB/28.57MB[1B[1A[2Kea362f368469: Downloading  11.46MB/28.57MB[1B[1A[2Kea362f368469: Downloading  12.06MB/28.57MB[1B[1A[2Kea362f368469: Downloading  12.65MB/28.57MB[1B[1A[2Kea362f368469: Downloading  13.24MB/28.57MB[1B[1A[2Kea362f368469: Downloading     15MB/28.57MB[1B[1A[2Kea362f368469: Downloading  15.88MB/28.57MB[1B[1A[2Kea362f368469: Downloading  16.76MB/28.57MB[1B[1A[2Kea362f368469: Downloading  17.35MB/28.57MB[1B[1A[2Kea362f368469: Downloading  18.24MB/28.57MB[1B[1A[2Kea362f368469: Downloading  19.12MB/28.57MB[1B[1A[2Kea362f368469: Downloading     20MB/28.57MB[1B[1A[2Kea362f368469: Downloading  20.89MB/28.57MB[1B[1A[2Kea362f368469: Downloading  21.48MB/28.57MB[1B[1A[2Kea362f368469: Downloading  22.07MB/28.57MB[1B[1A[2Kea362f368469: Downloading  22.67MB/28.57MB[1B[1A[2Kea362f368469: Downloading  22.95MB/28.57MB[1B[1A[2Kea362f368469: Downloading  24.43MB/28.57MB[1B[1A[2Kea362f368469: Downloading  25.31MB/28.57MB[1B[1A[2Kea362f368469: Downloading  26.19MB/28.57MB[1B[1A[2Kea362f368469: Downloading  27.08MB/28.57MB[1B[1A[2Kea362f368469: Downloading  27.67MB/28.57MB[1B[1A[2Kea362f368469: Downloading  28.26MB/28.57MB[1B[1A[2Kea362f368469: Verifying Checksum [1B[1A[2Kea362f368469: Download complete [1B[1A[2Kea362f368469: Extracting  294.9kB/28.57MB[1B[1A[2Kea362f368469: Extracting  3.244MB/28.57MB[1B[1A[2Kea362f368469: Extracting  5.898MB/28.57MB[1B[1A[2Kea362f368469: Extracting  8.552MB/28.57MB[1B[1A[2Kea362f368469: Extracting  10.62MB/28.57MB[1B[1A[2Kea362f368469: Extracting  13.27MB/28.57MB[1B[1A[2Kea362f368469: Extracting  16.52MB/28.57MB[1B[1A[2Kea362f368469: Extracting  19.76MB/28.57MB[1B[1A[2Kea362f368469: Extracting  22.71MB/28.57MB[1B[1A[2Kea362f368469: Extracting  24.18MB/28.57MB[1B[1A[2Kea362f368469: Extracting  26.54MB/28.57MB[1B[1A[2Kea362f368469: Extracting  28.02MB/28.57MB[1B[1A[2Kea362f368469: Extracting  28.57MB/28.57MB[1B[1A[2Kea362f368469: Pull complete [1BDigest: sha256:b5a61709a9a44284d88fb12e5c48db0409cfad5b69d4ff8224077c57302df9cf
+Status: Downloaded newer image for ubuntu:latest
+]0;root@9ef366d7386e: /root@9ef366d7386e:/# [K]0;root@9ef366d7386e: /root@9ef366d7386e:/# mkdir usr
+mkdir: cannot create directory 'usr': File exists
+]0;root@9ef366d7386e: /root@9ef366d7386e:/# ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+]0;root@9ef366d7386e: /root@9ef366d7386e:/# cd urs  sr/
+]0;root@9ef366d7386e: /usrroot@9ef366d7386e:/usr# s ls
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;root@9ef366d7386e: /usrroot@9ef366d7386e:/usr# cd spp   as pp   src/
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# ls
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# mkdir app
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# ls
+[0m[01;34mapp[0m
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# touch index.js
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# ls
+[0m[01;34mapp[0m  index.js
+]0;root@9ef366d7386e: /usr/srcroot@9ef366d7386e:/usr/src# rxit    exit
+exit
+[1m[7m%[27m[1m[0m                                                                                    ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Mon Jan 17 10:16:27 2022
