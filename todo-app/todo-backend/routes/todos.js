@@ -47,14 +47,8 @@ singleRouter.get('/', async (req, res) => {
 
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
-    const { text, done } = req.query
-    if (text) {
-        req.todo.text = text
-    }
-    if (done) {
-        if (done === 'true') req.todo.done = true
-        if (done === 'false') req.todo.done = false
-    }
+    req.todo.text = req.body.text
+    req.todo.done = req.body.done
     await req.todo.save()
     res.send(req.todo)
 });
