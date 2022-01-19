@@ -1,0 +1,81 @@
+Script started on Wed Jan 19 09:42:39 2022
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker container ls a .a  -a[?1l>[?2004l
+]2;docker container ls -a]1;dockerCONTAINER ID   IMAGE              COMMAND                  CREATED         STATUS                      PORTS                     NAMES
+0efce7388052   mongo              "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes                0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+12c23fc0211f   redis:6.2-alpine   "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes                0.0.0.0:6379->6379/tcp    todo-backend-redis-1
+0a1bcd9ab799   redis              "docker-entrypoint.s…"   18 hours ago    Exited (137) 18 hours ago                             some-redis
+f36fdba99c62   fs-todo-backend    "docker-entrypoint.s…"   23 hours ago    Exited (137) 23 hours ago                             todo-backend-app-1
+d05391f50ede   fs-todo-backend    "docker-entrypoint.s…"   23 hours ago    Exited (137) 23 hours ago                             nostalgic_chandrasekhar
+8cb22d86c63b   node:16            "docker-entrypoint.s…"   47 hours ago    Exited (0) 47 hours ago                               hello-node
+4a7d798edcb3   hello-node-world   "bash"                   47 hours ago    Exited (0) 47 hours ago                               crazy_austin
+621d3c2d1faa   hello-world        "/hello"                 47 hours ago    Exited (0) 47 hours ago                               xenodochial_poincare
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker rn un -it [7m12c23fc0211f[27m[12D[27m1[27m2[27mc[27m2[27m3[27mf[27mc[27m0[27m2[27m1[27m1[27mf[?1l>[?2004l
+]2;docker run -it 12c23fc0211f]1;dockerUnable to find image '12c23fc0211f:latest' locally
+docker: Error response from daemon: pull access denied for 12c23fc0211f, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;31m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker kill 03  e 12c[?1l>[?2004l
+]2;docker kill 0e 12c]1;docker0e
+12c
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker kill 0e 12c[11Drun -it[4C23fc0211f[20Dcontainer ls -a     [?1l>[?2004l
+]2;docker container ls -a]1;dockerCONTAINER ID   IMAGE              COMMAND                  CREATED         STATUS                       PORTS     NAMES
+0efce7388052   mongo              "docker-entrypoint.s…"   7 minutes ago   Exited (137) 5 seconds ago             todo-backend-mongo-1
+12c23fc0211f   redis:6.2-alpine   "docker-entrypoint.s…"   7 minutes ago   Exited (137) 5 seconds ago             todo-backend-redis-1
+0a1bcd9ab799   redis              "docker-entrypoint.s…"   18 hours ago    Exited (137) 18 hours ago              some-redis
+f36fdba99c62   fs-todo-backend    "docker-entrypoint.s…"   23 hours ago    Exited (137) 23 hours ago              todo-backend-app-1
+d05391f50ede   fs-todo-backend    "docker-entrypoint.s…"   23 hours ago    Exited (137) 23 hours ago              nostalgic_chandrasekhar
+8cb22d86c63b   node:16            "docker-entrypoint.s…"   47 hours ago    Exited (0) 47 hours ago                hello-node
+4a7d798edcb3   hello-node-world   "bash"                   47 hours ago    Exited (0) 47 hours ago                crazy_austin
+621d3c2d1faa   hello-world        "/hello"                 2 days ago      Exited (0) 2 days ago                  xenodochial_poincare
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker container ls -a[15Dkill 0e 12c    [11Drun -it[4C23fc0211f[12D            [12D[7m12c23fc0211f[27m[12D[27m1[27m2[27mc[27m2[27m3[27mf[27mc[27m0[27m2[27m1[27m1[27mf[?1l>[?2004l
+]2;docker run -it 12c23fc0211f]1;dockerUnable to find image '12c23fc0211f:latest' locally
+docker: Error response from daemon: pull access denied for 12c23fc0211f, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;31m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker exec redis-cli [7m12c23fc0211f[27m[12D[27m1[27m2[27mc[27m2[27m3[27mf[27mc[27m0[27m2[27m1[27m1[27mf[?1l>[?2004l
+]2;docker exec redis-cli 12c23fc0211f]1;dockerError: No such container: redis-cli
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;31m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker exec [7m12c23fc0211f[27m[12D[27m1[27m2[27mc[27m2[27m3[27mf[27mc[27m0[27m2[27m1[27m1[27mf ed  redis-cli[?1l>[?2004l
+]2;docker exec 12c23fc0211f redis-cli]1;dockerError response from daemon: Container 12c23fc0211fb03a8dc0ed70bfb52ca507baf36234022a4b8e1850dd31d7d626 is not running
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;31m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker-compose -f docker-compose.dev.yml up -d[27m[46D[27md[27mo[27mc[27mk[27me[27mr[27m-[27mc[27mo[27mm[27mp[27mo[27ms[27me[27m [27m-[27mf[27m [27md[27mo[27mc[27mk[27me[27mr[27m-[27mc[27mo[27mm[27mp[27mo[27ms[27me[27m.[27md[27me[27mv[27m.[27my[27mm[27ml[27m [27mu[27mp[27m [27m-[27md[?1l>[?2004l
+]2;docker-compose -f docker-compose.dev.yml up -d]1;docker-compose[33mWARN[0m[0000] Found orphan containers ([todo-backend-app-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up. 
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠿ Container todo-backend-redis-1  Starting                                      0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                      0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                      0.2s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                      0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                      0.3s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                      0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Container todo-backend-redis-1  Started                                       0.4s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                      0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Started                                       0.4s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                       0.4s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker-compose -f docker-compose.dev.yml up -d[40D exec 12c23fc0211f redis-cli            [12D[?1l>[?2004l
+]2;docker exec 12c23fc0211f redis-cli]1;docker[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker exec -t [13D             [13Dddocker container ls[?1l>[?2004l
+]2;docker container ls]1;dockerCONTAINER ID   IMAGE              COMMAND                  CREATED         STATUS              PORTS                     NAMES
+0efce7388052   mongo              "docker-entrypoint.s…"   9 minutes ago   Up About a minute   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+12c23fc0211f   redis:6.2-alpine   "docker-entrypoint.s…"   9 minutes ago   Up About a minute   0.0.0.0:6379->6379/tcp    todo-backend-redis-1
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker exec -it [7m12c23fc0211f[27m[12D[27m1[27m2[27mc[27m2[27m3[27mf[27mc[27m0[27m2[27m1[27m1[27mf redis-cli[?1l>[?2004l
+]2;docker exec -it 12c23fc0211f redis-cli]1;docker127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET m[0;90;49m [0m[21C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET t[0;90;49m [0m[21C[0K127.0.0.1:6379> GET to[0;90;49m [0m[22C[0K127.0.0.1:6379> GET tod[0;90;49m [0m[23C[0K127.0.0.1:6379> GET todo[0;90;49m [0m[24C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> GET todos[25C
+"2"
+127.0.0.1:6379> [0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[0;90;49m key value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisec[0m[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisec[0m[20C[0K127.0.0.1:6379> SET t[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisecon[0m[21C[0K127.0.0.1:6379> SET to[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseco[0m[22C[0K127.0.0.1:6379> SET tod[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisec[0m[23C[0K127.0.0.1:6379> SET todo[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millise[0m[24C[0K127.0.0.1:6379> SET todos[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT millis[0m[25C[0K127.0.0.1:6379> SET todos [0;90;49mvalue [EX seconds|PX milliseconds|EXAT timestamp|PXAT millis[0m[26C[0K127.0.0.1:6379> SET todos 9[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisecon[0m[27C[0K127.0.0.1:6379> SET todos 90[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseco[0m[28C[0K127.0.0.1:6379> SET todos 900[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisec[0m[29C[0K127.0.0.1:6379> SET todos 9001[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT millise[0m[30C[0K127.0.0.1:6379> SET todos 900[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisec[0m[29C[0K127.0.0.1:6379> SET todos 90[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseco[0m[28C[0K127.0.0.1:6379> SET todos 9[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT millisecon[0m[27C[0K127.0.0.1:6379> SET todos [0;90;49mvalue [EX seconds|PX milliseconds|EXAT timestamp|PXAT millis[0m[26C[0K127.0.0.1:6379> SET todos "[27C[0K127.0.0.1:6379> SET todos "9[28C[0K127.0.0.1:6379> SET todos "90[29C[0K127.0.0.1:6379> SET todos "900[30C[0K127.0.0.1:6379> SET todos "9001[31C[0K127.0.0.1:6379> SET todos "9001"[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milli[0m[32C[0K127.0.0.1:6379> SET todos "9001"[32C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET todos "9001"[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milli[0m[32C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> GET todos[25C
+"9001"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[0;90;49m key [key ...][0m[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL t[0;90;49m [key ...][0m[21C[0K127.0.0.1:6379> DEL to[0;90;49m [key ...][0m[22C[0K127.0.0.1:6379> DEL tod[0;90;49m [key ...][0m[23C[0K127.0.0.1:6379> DEL todo[0;90;49m [key ...][0m[24C[0K127.0.0.1:6379> DEL todos[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> DEL todos[25C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL todos[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> GET todos[25C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> DEL todos[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> SET todos "9001"[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milli[0m[32C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[1m[7m%[27m[1m[0m                                                                                      ]2;jusa@Jusa-MacBook-Pro:~/Documents/Koulut/HY/FullStack2021/FullStack2022Containers/todo-app/todo-backend]1;../todo-backend[0m[27m[24m[J[01;32m➜  [36mtodo-backend[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Wed Jan 19 09:53:42 2022
