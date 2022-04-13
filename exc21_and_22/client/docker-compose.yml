@@ -1,0 +1,13 @@
+services:
+  app:
+    image: fs-container-own-app-client
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3000:3000
+    container_name: fs-container-own-app-client
+  debug-helper:
+    image: busybox
